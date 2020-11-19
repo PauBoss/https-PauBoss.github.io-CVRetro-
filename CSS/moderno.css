@@ -1,0 +1,92 @@
+body{
+  background-image: url("Imagenes/Fondo.jpg");
+  background-color: red !important;
+  background-size: cover;
+}
+
+header h1, img{
+  border: 4px black solid;
+  color: black;
+  background-color: orange;
+  box-shadow: 5px 10px;
+}
+
+h2{ text-decoration: underline; }
+
+p > b{
+  color: white;
+}
+
+td.radio{
+  color: black;
+  border: 2px solid;
+  text-align: left;
+  padding: 2px;
+  border-radius: 20px;
+  background-color: orange;
+  box-shadow: 5px 10px;
+} 
+
+table.caract {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+
+td, th {
+  border: 1px solid;
+  text-align: center;
+  padding: 8px;
+}
+
+tr.color1{ background-color: #186A3B; } tr.color2{ background-color: #1D8348; } tr.color3{ background-color: #239B56; } tr.color4{ background-color: #28B463; }
+tr.color5{ background-color: #2ECC71; } tr.color6{ background-color: #58D68D; } tr.color7{ background-color: #82E0AA; }
+
+a[target=_blank] { font-style: italic; } a:link{ color: #FF6000; } a:visited{ color: black; } a:hover{ color: red; } 
+
+tr#color1{ background-color: #F0B27A; } tr#color2{ background-color: #AED6F1; }
+
+meter{
+  border: 1px solid;
+}
+
+
+img.central {
+  background-image: url("Imagenes/FotoCV.jpg");
+  width: 100px;
+  height: 100px;
+}
+
+img.left {
+  margin-left: 450px;
+  float: left;
+  background-image: url("Imagenes/HTML5.jpg");
+  width: 100px;
+  height: 100px;
+}
+
+img.right {
+  margin-right:450px;
+  float: right;
+  background-image: url("Imagenes/CSS.jpg");
+  width: 100px; 
+  height: 100px;
+}
+
+input[type=submit]{
+  background-color: #FFC300;
+  box-shadow: 5px 10px;
+}
+
+input.retro{
+float: left;
+margin-left: 10px;
+}
+
+input.moderno{
+float: right;
+margin-right: 10px;
+}
